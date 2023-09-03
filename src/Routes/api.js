@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+// const controller = require('../Controllers')
 const blogController = require("../Controllers/blogController");
 const blogDetails = require("../Controllers/blogDetailsController");
 const comment = require("../Controllers/commentController");
